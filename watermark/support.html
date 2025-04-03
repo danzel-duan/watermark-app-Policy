@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Inked-icon.png" type="image/x-icon">
+    <title>技术支持 - Inked 水印</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            /* padding: 1rem; */
+            background-color: white;
+            color: #333;
+        }
+        /* 悬浮头部样式 */
+        
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px 0px 20px 0px;
+            display: flex;
+            /* 横向排列 */
+            align-items: center;
+            /* 垂直居中 */
+            justify-content: flex-start;
+            /* 内容靠左 */
+            gap: 15px;
+            /* 元素间距 */
+            border-bottom: 1px solid #f0f0f0;
+            /* 底部边框线 */
+            z-index: 100;
+        }
+        /* 图标样式 */
+        
+        .header-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+        }
+        /* 应用名称样式 */
+        
+        .app-name {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #333;
+        }
+        /* 使用条款标签样式 */
+        
+        .terms-tag {
+            font-size: 0.8rem;
+            color: #777;
+            margin-right: auto;
+            /* 靠左对齐 */
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        
+        h1 {
+            font-size: 0.9rem;
+            text-align: left;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            color: #444;
+        }
+
+        h2 {
+            font-size: 0.85rem;
+            text-align: left;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            color: #444;
+        }
+        
+        .date-info {
+            margin-top: 20px;
+            line-height: 1.6;
+            font-family: Arial, sans-serif;
+        }
+        
+        .date-info p {
+            margin: 0;
+            padding: 4px 0;
+            color: #666;
+        }
+        
+        p {
+            font-size: 0.8rem;
+        }
+        
+        li {
+            line-height: 1.6;
+            margin: 0.5rem 0;
+            font-size: 0.8rem;
+        }
+        
+        ul {
+            padding-left: 1.2rem;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 0.5rem;
+            }
+            .container {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 0.9rem;
+            }
+            h2 {
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 悬浮头部 -->
+    <div class="sticky-header">
+        <img class="header-icon" src="./Inked-icon.png" alt="App Icon">
+        <div class="app-name">Inked Watermark</div>
+        <div class="terms-tag">技术支持</div>
+    </div>
+    <div class="container">
+        <p>感谢您使用 [Inked Watermark]！如果您在使用过程中遇到任何问题，欢迎联系我们。</p>
+        <h1>📌 应用简介</h1>
+        <p>[Inked Watermark] 是一款专业的水印工具，支持图片和视频添加水印，提供自定义文本、时间戳、Logo 及各种特效，让您的内容更具个性化与版权保护。</p>
+        <h1>🚀 常见问题</h1>
+        <h2>1. 如何添加水印？</h2>
+        <ul>
+            <li>打开 App，选择图片或视频。</li>
+            <li>点击 “添加水印”，自定义文字、样式、透明度等。</li>
+            <li>预览后，点击保存即可导出带水印的文件。</li>
+        </ul>
+        <h2>2. 为什么导出的视频变模糊？</h2>
+        <p>请检查以下几点：</p>
+        <ul>
+            <li>确保原视频质量较高（推荐 1080p 以上）。</li>
+            <li>在设置中调整导出分辨率为高清模式。</li>
+        </ul>
+        <h2>3. 购买的高级功能无法使用？</h2>
+        <ul>
+            <li>请确认已登录购买时的 Apple ID。</li>
+            <li>进入 App，点击“恢复购买”按钮。</li>
+            <li>若仍有问题，请联系技术支持邮箱（见下方）。</li>
+        </ul>
+        <h1>📧 联系我们</h1>
+        <p>如有任何问题或建议，可通过以下方式联系我们：</p>
+        <ul>
+            <li>客服邮箱：danzeldeveloper@163.com</li>
+            <li>技术支持网址：https://app.zonhem.com/watermark/support.html</li>
+            <li>反馈提交：App 内“设置” → “意见与反馈”</li>
+        </ul>
+    </div>
+</body>
+
+</html>
